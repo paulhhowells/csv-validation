@@ -67,3 +67,26 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+table {
+  min-width: 20rem;
+  border-spacing: 0;
+}
+table,
+tr {
+  border: none;
+}
+td {
+  padding: 0;
+  border-bottom: 1px solid orangered;
+  border-right: 1px solid #EEE;
+}
+td:last-child {
+  border-right: none;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+.table-cell--error {
+  background-color: #EC0;
+}
